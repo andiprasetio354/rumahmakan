@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rumah Makan Barokah | Cita Rasa Lamongan</title>
+    <meta
+      name="description"
+      content="Rumah Makan Barokah menghadirkan cita rasa Lamongan asli dengan sentuhan premium. Nikmati menu favorit, paket keluarga, dan reservasi mudah melalui WhatsApp."
+    />
+    <meta
+      name="keywords"
+      content="rumah makan lamongan, barokah, pecel lele, soto lamongan, nasi boranan, restoran makassar"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <div class="topbar-item">Buka: 10.00 - 22.00</div>
+        <div class="topbar-item">Jl. Pajjaiang No. 24, Makassar</div>
+        <div class="topbar-item">+62 812-3456-7890</div>
+        <div class="topbar-actions">
+          <a
+            href="https://wa.me/6281234567890?text=Halo%20Barokah%2C%20saya%20ingin%20pesan%20makanan."
+            class="btn btn-primary btn-sm"
+            >Pesan Sekarang</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand" aria-label="Beranda Rumah Makan Barokah">
+          <span class="brand-name">Barokah</span>
+          <span class="brand-sub">Khas Lamongan</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Navigasi utama">
+          <a href="#home">Beranda</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">Tentang</a>
+          <a href="#gallery">Galeri</a>
+          <a href="#reservation">Reservasi</a>
+          <a href="#contact">Kontak</a>
+          <a
+            href="https://wa.me/6281234567890?text=Halo%20Barokah%2C%20saya%20ingin%20membuat%20pesanan."
+            class="btn btn-primary btn-sm nav-cta"
+            >Pesan</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Selamat datang di</span>
+            <h1>Rumah Makan Barokah</h1>
+            <p>
+              Cita rasa Lamongan yang autentik, dibungkus suasana hangat dan
+              modern untuk setiap momen santap Anda.
+            </p>
+            <div class="hero-actions">
+              <a href="#menu" class="btn btn-primary">Lihat Menu</a>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%20Barokah%2C%20saya%20ingin%20pesan%20via%20WhatsApp."
+                class="btn btn-secondary"
+                >Pesan via WhatsApp</a
+              >
+            </div>
+            <ul class="hero-meta">
+              <li>Menu khas Lamongan</li>
+              <li>Rasa autentik</li>
+              <li>Pesan cepat</li>
+            </ul>
+          </div>
+
+          <div class="hero-feature" aria-label="Paket keluarga Barokah">
+            <div class="feature-card">
+              <span class="mini-label">Paket Keluarga</span>
+              <h2>Rp 165.000</h2>
+              <p>
+                Untuk 4 orang, lengkap dengan bebek, ayam, lele, nasi, dan
+                minuman.
+              </p>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%20Barokah%2C%20saya%20ingin%20pesan%20Paket%20Keluarga."
+                class="text-link"
+                >Pesan paket</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Menu unggulan</span>
+            <h2>Racikan Lamongan Asli, Sambal Menggigit</h2>
+          </div>
+
+          <div class="menu-filters" aria-label="Filter menu">
+            <button class="filter-btn active" data-filter="all" type="button">
+              Semua
+            </button>
+            <button class="filter-btn" data-filter="lauk" type="button">
+              Lauk
+            </button>
+            <button class="filter-btn" data-filter="seafood" type="button">
+              Seafood
+            </button>
+            <button class="filter-btn" data-filter="sup" type="button">
+              Sup & Nasi
+            </button>
+            <button class="filter-btn" data-filter="tambahan" type="button">
+              Pelengkap
+            </button>
+            <button class="filter-btn" data-filter="minuman" type="button">
+              Minuman
+            </button>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-item" data-category="lauk">
+              <div class="menu-number">01</div>
+              <div class="menu-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1529042410759-bef5d0b5d6d2?auto=format&fit=crop&w=900&q=80"
+                  alt="Bebek Goreng Barokah"
+                />
+              </div>
+              <h3>Bebek Goreng Barokah</h3>
+              <p>
+                Bebek empuk bumbu rempah, digoreng kering dengan sambal terasi
+                yang menggoda.
+              </p>
+              <ul>
+                <li>Rp 38.000</li>
+                <li>Pedas</li>
+                <li>Favorit</li>
+              </ul>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%20Barokah%2C%20saya%20mau%20pesan%20Bebek%20Goreng%20Barokah."
+                class="btn btn-secondary"
+                >Pesan</a
+              >
+            </article>
+
+            <article class="menu-item" data-category="seafood">
+              <div class="menu-number">02</div>
+              <div class="menu-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80"
+                  alt="Pecel Lele Barokah"
+                />
+              </div>
+              <h3>Pecel Lele</h3>
+              <p>
+                Lele goreng garing dengan lalapan segar dan sambal terasi khas
+                Lamongan.
+              </p>
+              <ul>
+                <li>Rp 20.000</li>
+                <li>Lezat</li>
+                <li>Ramah</li>
+              </ul>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%20Barokah%2C%20saya%20mau%20pesan%20Pecel%20Lele."
+                class="btn btn-secondary"
+                >Pesan</a
+              >
+            </article>
+
+            <article class="menu-item" data-category="sup">
+              <div class="menu-number">03</div>
+              <div class="menu-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80"
+                  alt="Soto Lamongan"
+                />
+              </div>
+              <h3>Soto Lamongan</h3>
+              <p>
+                Kuah bening bercita rasa gurih dengan ayam suwir, koya, dan
+                aroma rempah.
+              </p>
+              <ul>
+                <li>Rp 22.000</li>
+                <li>Hangat</li>
+                <li>Istimewa</li>
+              </ul>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%20Barokah%2C%20saya%20mau%20pesan%20Soto%20Lamongan."
+                class="btn btn-secondary"
+                >Pesan</a
+              >
+            </article>
+          </div>
+
+          <div class="cta-row">
+            <a href="#reservation" class="btn btn-secondary"
+              >Lihat Semua Menu</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="story" id="about">
+        <div class="container story-grid">
+          <div class="story-copy">
+            <span class="eyebrow">Spesial dari dapur</span>
+            <h2>Spesial dari Dapur Barokah</h2>
+            <p>
+              Sejak awal, Barokah menghadirkan cita rasa khas Lamongan yang
+              diwariskan secara turun-temurun. Setiap hidangan dibuat dengan
+              bumbu alami, bahan segar, dan sentuhan hangat yang membuat setiap
+              suapan terasa seperti kampung halaman.
+            </p>
+            <a href="#contact" class="btn btn-secondary">Baca Selengkapnya</a>
+          </div>
+
+          <div class="story-cards">
+            <article class="package-card package-one">
+              <div class="package-info">
+                <span class="mini-label">Paket Keluarga</span>
+                <h3>Lezat untuk semua</h3>
+              </div>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%20Barokah%2C%20saya%20ingin%20pesan%20Paket%20Keluarga."
+                class="btn btn-secondary"
+                >Pesan</a
+              >
+            </article>
+
+            <article class="package-card package-two">
+              <div class="package-info">
+                <span class="mini-label">Nasi Kotak</span>
+                <h3>Untuk acara Anda</h3>
+              </div>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%20Barokah%2C%20saya%20ingin%20pesan%20Nasi%20Kotak."
+                class="btn btn-secondary"
+                >Pesan</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="gallery">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow">Galeri</span>
+            <h2>Kenangan Rasa di Setiap Sudut</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item tall">
+              <img
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80"
+                alt="Hidangan rumah makan Barokah"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=80"
+                alt="Pecel lele dan lalapan"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=80"
+                alt="Nasi dan lauk khas"
+              />
+            </figure>
+            <figure class="gallery-item wide">
+              <img
+                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80"
+                alt="Suasana restoran"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="reservation" id="reservation">
+        <div class="container reservation-grid">
+          <div class="reservation-copy">
+            <span class="eyebrow">Reservasi</span>
+            <h2>Siapkan meja favorit Anda</h2>
+            <p>
+              Mau makan keluarga, arisan, atau rapat kecil? Kami siap menyiapkan
+              meja sesuai kebutuhan Anda.
+            </p>
+            <ul class="check-list">
+              <li>Antrean lebih cepat</li>
+              <li>Dukungan untuk acara kecil</li>
+              <li>Menu paket siap disesuaikan</li>
+            </ul>
+          </div>
+
+          <form class="reservation-form" id="reservationForm">
+            <div class="field-group">
+              <label for="name">Nama</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Nama lengkap"
+                required
+              />
+            </div>
+            <div class="field-group">
+              <label for="phone">WhatsApp</label>
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                placeholder="08xxxxxxxxxx"
+                required
+              />
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="date">Tanggal</label>
+                <input id="date" name="date" type="date" required />
+              </div>
+              <div class="field-group">
+                <label for="time">Jam</label>
+                <input id="time" name="time" type="time" required />
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="guests">Jumlah orang</label>
+                <input
+                  id="guests"
+                  name="guests"
+                  type="number"
+                  min="1"
+                  max="50"
+                  value="2"
+                  required
+                />
+              </div>
+              <div class="field-group">
+                <label for="occasion">Acara</label>
+                <select id="occasion" name="occasion">
+                  <option value="Makan santai">Makan santai</option>
+                  <option value="Keluarga">Keluarga</option>
+                  <option value="Rapat kecil">Rapat kecil</option>
+                  <option value="Acara lain">Acara lain</option>
+                </select>
+              </div>
+            </div>
+            <div class="field-group">
+              <label for="notes">Catatan</label>
+              <textarea
+                id="notes"
+                name="notes"
+                rows="4"
+                placeholder="Tulis kebutuhan khusus seperti kursi anak, lokasi duduk, atau menu favorit."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">
+              Reservasi via WhatsApp
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-card info-card">
+            <span class="eyebrow">Kontak</span>
+            <h2>Datang atau pesan sekarang</h2>
+            <ul class="contact-list">
+              <li><strong>Alamat:</strong> Jl. Pajjaiang No. 24, Makassar</li>
+              <li><strong>WhatsApp:</strong> +62 812-3456-7890</li>
+              <li><strong>Jam Buka:</strong> Senin - Minggu, 10.00 - 22.00</li>
+            </ul>
+            <div class="contact-actions">
+              <a
+                href="https://wa.me/6281234567890?text=Halo%20Barokah%2C%20saya%20ingin%20bertanya%20tentang%20menu."
+                class="btn btn-primary"
+                >Chat WhatsApp</a
+              >
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Rumah+Makan+Barokah+Makassar"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn-secondary"
+                >Petunjuk Arah</a
+              >
+            </div>
+          </div>
+
+          <div class="contact-card map-card">
+            <iframe
+              title="Lokasi Rumah Makan Barokah"
+              src="https://www.google.com/maps?q=Makassar&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#home" class="brand footer-brand">
+            <span class="brand-name">Barokah</span>
+            <span class="brand-sub">Khas Lamongan</span>
+          </a>
+          <p>
+            Cita rasa Lamongan yang autentik, hangat, dan siap memanjakan selera
+            Anda setiap hari.
+          </p>
+        </div>
+
+        <div>
+          <h3>Menu Cepat</h3>
+          <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#gallery">Galeri</a></li>
+            <li><a href="#reservation">Reservasi</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Jam Operasional</h3>
+          <ul>
+            <li>Senin - Jumat: 10.00 - 22.00</li>
+            <li>Sabtu - Minggu: 10.00 - 22.00</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Kontak</h3>
+          <ul>
+            <li>Jl. Pajjaiang No. 24, Makassar</li>
+            <li>+62 812-3456-7890</li>
+            <li>barokah@contoh.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 Rumah Makan Barokah. Semua Hak Dilindungi.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

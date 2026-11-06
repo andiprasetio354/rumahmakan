@@ -1,0 +1,13 @@
+:root {
+  --bg: #0d0d0d;
+  --bg-soft: #1a1a1a;
+  --bg-card: #242120;
+  --orange: #f28c38;
+  --orange-light: #ffa55c;
+  --text: #f5f0e8;
+  --text-soft: #a8a29a;
+  --border: #333030;
+  --shadow: 0 20px 45px rgba(0, 0, 0, 0.28);
+  --radius: 18px;
+  --container: min(1180px, calc(100% - 32px));
+}
